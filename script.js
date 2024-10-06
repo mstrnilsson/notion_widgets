@@ -1,6 +1,6 @@
 function showTime() {
 	const now = new Date();
-	document.getElementById('currentTime').innerHTML = now.toLocaleDateString(undefined, options));
+	document.getElementById('currentTime').innerHTML = now.toLocaleString();
 }
 showTime();
 setInterval(function () {
