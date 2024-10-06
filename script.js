@@ -4,7 +4,7 @@ function showTime() {
   fecha = fecha.toLocaleDateString("es-ES", { weekday:'long', day:'numeric', month:'long', year:'numeric'});
   //hora = hora.toLocaleTimeString()
   
-  document.getElementById('currentTime').innerHTML = fecha //+ " " + hora//;
+  document.getElementById('currentTime').innerHTML = fecha; //+ " " + hora//
 }
 showTime();
 setInterval(function () {
