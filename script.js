@@ -1,6 +1,11 @@
 function showTime() {
-	const now = new Date();
-	document.getElementById('currentTime').innerHTML = now.toLocaleString();
+  var fecha = new Date();
+  var hora = new Date();
+  fecha = fecha.toLocaleDateString("es-ES", { weekday:'long', day:'numeric', month:'long', year:'numeric'});
+  hora = hora.toLocaleTimeString()
+  
+  document.getElementById('currentTime').innerHTML = fecha + " " +hora;
+  //document.getElementById('currentTime').innerHTML = hora;
 }
 showTime();
 setInterval(function () {
