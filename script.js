@@ -5,7 +5,7 @@ function showTime() {
   hora = hora.toLocaleTimeString();
   
   //document.getElementById('currentTime').innerHTML = fecha;
-	console.log(fecha + " " + hora);
+	alert(fecha + " " + hora);
   //document.getElementById('currentTime').innerHTML = hora;
 }
 showTime();
