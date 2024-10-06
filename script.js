@@ -5,7 +5,6 @@ function showTime() {
   hora = hora.toLocaleTimeString()
   
   document.getElementById('currentTime').innerHTML = fecha + " " +hora;
-  //document.getElementById('currentTime').innerHTML = hora;
 }
 showTime();
 setInterval(function () {
