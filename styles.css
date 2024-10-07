@@ -2,12 +2,12 @@
   /* this has to be set to switch between light or dark */
   color-scheme: light dark;
 
-  --light-bg: ghostwhite;
-  --light-color: black;
+  --light-bg: #fff;
+  --light-color: #191919;
   --light-code: tomato;
 
   --dark-bg: #191919;
-  --dark-color: ghostwhite;
+  --dark-color: #fff;
   --dark-code: gold;
 }
 * {
