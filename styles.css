@@ -17,11 +17,4 @@
 code {
   color: light-dark(var(--light-code), var(--dark-code));
 }
-body {
 
-	font-family: "Roboto", sans-serif;
-	font-weight: bold;
-	font-size: 20px;
-	text-align: center;
-
-}
