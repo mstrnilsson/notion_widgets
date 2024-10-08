@@ -1,4 +1,4 @@
-:root {
+1:root {
   /* this has to be set to switch between light or dark */
   color-scheme: light dark;
 
@@ -26,6 +26,6 @@ body{
 h1{
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 10px;
 		text-align: center;
 }
