@@ -17,7 +17,7 @@
 code {
   color: light-dark(var(--light-code), var(--dark-code));
 }
-body{
+body {
 	h1{
 		font-family: "Roboto", sans-serif;
 		font-weight: bold;
